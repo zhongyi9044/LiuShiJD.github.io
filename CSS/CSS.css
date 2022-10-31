@@ -1,0 +1,182 @@
+body {
+    /* width: 50%; */
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    color: #666;
+    font-size: 14px;
+}
+
+.JDlianjie {
+    width: 100%;
+    height: 45px;
+    background-color: #333;
+    color: #fff;
+}
+
+.x {
+    float: left;
+    width: 8%;
+    height: 45px;
+}
+
+.x img {
+    margin-top: 60%;
+    margin-left: 30%;
+    width: 10px;
+}
+
+.Jdlogo {
+    width: 10%;
+    float: left;
+    text-align: center;
+    height: 45px;
+}
+
+.Jdlogo img {
+    width: 30px;
+    margin: 7.5px 0px;
+}
+
+.wenzi {
+    float: left;
+    width: 57%;
+    font-size: 14px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+
+.dakai {
+    width: 25%;
+    height: 45px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;
+    background-color: #f61535;
+    float: left;
+}
+
+.sousuolan {
+    position: fixed;
+    width: 100%;
+    height: 44px;
+}
+
+.ganggang {
+    height: 44px;
+    float: left;
+    width: 15%;
+}
+
+.ganggang div {
+    display: block;
+    height: 18px;
+    width: 20px;
+    background: url(../upload/ganggang.jpg) no-repeat;
+    background-size: 100%;
+    margin: 14px 0 0 15px;
+
+}
+
+.sousuo {
+    height: 30px;
+    float: left;
+    width: 70%;
+    border-radius: 20px;
+    border-color: #ddd;
+    border-style: solid;
+    margin: 7px 0px;
+    background-color: #fff;
+}
+
+.denglu {
+    height: 44px;
+    float: left;
+    width: 15%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 44px;
+    padding-left: 1px;
+    color: #fff;
+}
+
+.JD {
+    float: left;
+    position: relative;
+    width: 20px;
+    height: 15px;
+    background: url(../upload/JD.jpg) no-repeat;
+    background-size: 100%;
+    transform: translate(8px, 5px);
+}
+
+.JD::after {
+    position: absolute;
+    content: '';
+    border-right: 1px solid #ddd;
+    top: 0;
+    left: 26px;
+    height: 16px;
+}
+
+.sousuotu {
+    margin: 5px 0px 0px 20px;
+    width: 20px;
+    height: 15px;
+    float: left;
+    background: url(../upload/jingling.jpg) no-repeat;
+    background-position: -80px 0px;
+    background-size: 200px;
+}
+
+.biaodan {
+    float: left;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.biaodan input {
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: 12px;
+}
+
+.gengxin {
+    width: 100%;
+}
+
+.tuijian {
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+    background: url(../upload/shengyushijian.jpg);
+    background-size: 100% 100%;
+}
+
+.tuijiantu {
+    width: 80%;
+    height: 143px;
+    margin: 44px 10% 0 10%;
+    background: url(../upload/manjian.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.daohanglan {
+    width: 100%;
+}
+
+.daohanglan a {
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.daohanglan a img {
+    width: 40px;
+    margin: 10px 0;
+}
